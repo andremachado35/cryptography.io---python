@@ -1,0 +1,2 @@
+V	191222213022Z		1000	unknown	/C=PT/ST=Portugal/L=Vile/O=Uminho/OU=[Crypto-MIETI]/CN=Servidor
+V	191222220701Z		1001	unknown	/C=PT/ST=Portugal/L=City/O=Uminho/OU=[MIETI-Crypto]/CN=Cliente

@@ -1,0 +1,32 @@
+Este guiao3 foi onde o grupo sentiu mais dificuldade pois: 
+- python é uma linguagem nova para o grupo 
+- matéria nova ainda estava sendo apresentada
+- o código cliente-servidor foi bastante confuso ao início.
+
+
+Neste guiao também era necessária muitas escolhas, tais como: 
+- se era para seguir a estrutura:
+-- encrypt and mac
+-- encrypt and then mac
+-- mac-then encrypt 
+-modos de operação (cbc,ecb,cfb,OFB,CTR)
+
+
+O grupo acabou por escolher encrypt and then mac pois após alguma pesquisa era o método que garantia integridade, confidencialidade e melhor aproveitamento das funcionalidades.
+e CTR pois apesar de saber posteriormente que não foi a melhor escolha, na aula teórica foi retido que era mais rápido e + mais seguro que CBC, logo parecia a melhor escolha no momento 
+
+Acho que a maior dificuldade neste guia foi como dividir as diferentes execuções no código cliente.
+Então foi neste guia que o grupo começou a tratar a mensagem como uma trama e analisando se era vazia ou não. 
+
+
+O grupo apartir duma chave fraca e um salt ----> gerava uma key ----> parsing da key em 2 
+
+
+1º key juntava-se a um nonce e a msg no CHACHA20
+
+2º key era utilizada com a saida do chacha20.
+
+
+O grupo realizou com sucesso este guia. 
+Desta forma não se recorda de grande problemas na solução. 
+

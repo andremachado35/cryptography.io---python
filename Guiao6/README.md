@@ -1,0 +1,6 @@
+# 1819-G7 - Guião 6
+Neste guião era pretendido a implementação do protocolo Station to Station pois permitia à aplicação cliente e servidor saber se estão a comunicar com a entidade que pensam estar a comunicar.
+Numa primeira fase foi implementado um script à parte para gerar as chaves assimétricas para a realização da assinatura digital, com o apoio do link https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/?highlight=rsa o grupo não sentiu dificuldades na implementação deste script.
+Numa segunda fase foi a incorporação deste par de chaves no protocolo Diffie-Helman, aqui o grupo sentiu alguma dificuldade nesta incorporação devido ao tamanho das chaves na troca das chaves por parte das respetivas entidades e também de ter que estarem em bytes, então foram sentidas algumas dificuldas, mas o grupo conseguiu superar estas dificuldades com pesquisa acerca destes problemas encontrados.
+Quanto à utilização dos métodos de "assinar" e "verificar" após a superação das dificuldades, conseguiu-se realizar com sucesso estes métodos.
+Apesar das dificuldades sentidas, estas foram superadas, como referido anteriormente e o grupo conseguiu realizar com sucesso o objetivo para este guia.

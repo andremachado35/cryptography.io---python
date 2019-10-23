@@ -1,0 +1,1 @@
+V	281209211555Z		1000	unknown	/C=PT/ST=Portugal/O=Uminho/OU=[Crypto-MIETI] CA-G9 Certificate Authority/CN=CA-Cli
